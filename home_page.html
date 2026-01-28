@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hadji wep developer</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(270deg, #ff512f, #dd2476, #1fa2ff, #12d8fa);
+  background-size: 800% 800%;
+  animation: gradientBG 12s ease infinite;
+  color: white;
+  padding: 40px;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+p {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+ul li {
+  margin: 15px 0;
+}
+
+a {
+  display: block;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 15px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.3em;
+  color: white;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  transform: scale(1.08);
+  background: rgba(255,255,255,0.3);
+  box-shadow: 0 0 30px rgba(255,255,255,0.5);
+}
+    </style>
+</head>
+<body>
+    <h1>Welcome to Hadji's Web Development Page</h1>
+    <p>This is a sample page for web development.</p>
+    <p>here are some exercises for you to solve.</p>
+    <ul>
+        <li><a href="page2.html">Go to exercises 2</a></li>
+        <li><a href="page3.html">Go to exercises 3</a></li>
+    </ul>
+    <p>if you wish to enter your information in order to log in ,<a href="page4.html">click here.</a></p>
+</body>
+</html>

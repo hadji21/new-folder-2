@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  background: rgba(255,255,255,0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 35px;
+  width: 360px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+  border: none;
+}
+
+legend {
+  font-size: 1.5em;
+  color: white;
+  padding: 0 10px;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+input[type="submit"] {
+  background: linear-gradient(90deg, #ff512f, #f09819);
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(255,255,255,0.6);
+}
+    </style>
+</head>
+<body>
+<fieldset >
+    <legend>login</legend>
+    <form action="home_page.html">
+        <div>
+            <label for="lll">أدخل اسمك</label><br>
+            <input id="lll" type="text" required placeholder="هده المعلومات اجبارية">
+        </div>
+        <div>
+            <label for="hadji">أدخل لقبك</lebel><br>
+            <input type="text" id="hadji" required placeholder="هده المعلومات اجبارية">
+        </div>
+        <div>
+            <label for="0672">أدخل رقم هاتفك</label><br>
+            <input type="tel" id="0672" required placeholder="هده المعلومات اجبارية">
+        </div>
+        <input type="submit" value="اطلب المنتجات">
+    </form>
+</fieldset>
+</body>
+</html>
